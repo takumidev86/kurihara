@@ -2,11 +2,20 @@ import styles from "./Links.module.css";
 
 export function Links() {
   return (
+    // <div className="flex items-center justify-center flex-wrap max-w-screen-md space-y-12 ">
     <div className={styles.grid}>
-      <a href="https://nextjs.org/docs" className={styles.card}>
+      {/* <a href="https://nextjs.org/docs" className={styles.card}> */}
+      <a
+        href="https://nextjs.org/docs"
+        className="m-4 p-6 text-left no-underline border-solid border-2 border-gray-100 rounded-xl w-9/20 hover:border-blue-500"
+      >
         <h2>Documentation &rarr;</h2>
         <p>Find in-depth information about Next.js features and API.</p>
       </a>
+      {/* <a href="https://nextjs.org/docs" className="m-4 p-6 text-left ">
+        <h2>Documentation &rarr;</h2>
+        <p>Find in-depth information about Next.js features and API.</p>
+      </a> */}
 
       <a href="https://nextjs.org/learn" className={styles.card}>
         <h2>Learn &rarr;</h2>
