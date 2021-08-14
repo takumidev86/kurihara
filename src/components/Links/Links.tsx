@@ -1,32 +1,46 @@
-import styles from "./Links.module.css";
-
 export function Links() {
   return (
-    <div className={styles.grid}>
-      <a href="https://nextjs.org/docs" className={styles.card}>
-        <h2>Documentation &rarr;</h2>
-        <p>Find in-depth information about Next.js features and API.</p>
+    <div className="flex items-center flex-wrap max-w-3xl mt-12  ">
+      {/* <div className={styles.grid}> */}
+
+      <a
+        href="https://nextjs.org/docs"
+        className="m-4 p-6  text-left text-gray-600 no-underline border border-solid border-gray-300 rounded-3xl transition md:w-5/12 hover:text-blue-600 focus:text-blue-600 hover:border-blue-500 focus:border-blue-500 w-full"
+      >
+        <h2 className="mb-4 text-2xl">Documentation &rarr;</h2>
+        <p className="m-0 text-xl ">
+          Find in-depth information about Next.js features and API.
+        </p>
       </a>
 
-      <a href="https://nextjs.org/learn" className={styles.card}>
-        <h2>Learn &rarr;</h2>
-        <p>Learn about Next.js in an interactive course with quizzes!</p>
+      <a
+        href="https://nextjs.org/learn"
+        className="m-4 p-6  text-left text-gray-600 no-underline border border-solid border-gray-300 rounded-3xl transition md:w-5/12 hover:text-blue-600 focus:text-blue-600 hover:border-blue-500 focus:border-blue-500 w-full"
+      >
+        <h2 className="mb-4 text-2xl">Learn &rarr;</h2>
+        <p className="m-0 text-xl ">
+          Learn about Next.js in an interactive course with
+        </p>
       </a>
 
       <a
         href="https://github.com/vercel/next.js/tree/master/examples"
-        className={styles.card}
+        className="m-4 p-6  text-left text-gray-600 no-underline border border-solid border-gray-300 rounded-3xl transition md:w-5/12 hover:text-blue-600 focus:text-blue-600 hover:border-blue-500 focus:border-blue-500 w-full"
       >
-        <h2>Examples &rarr;</h2>
-        <p>Discover and deploy boilerplate example Next.js projects.</p>
+        <h2 className="mb-4 text-2xl">Examples &rarr;</h2>
+        <p className="m-0 text-xl ">
+          Discover and deploy boilerplate example Next.js projects.
+        </p>
       </a>
 
       <a
         href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        className={styles.card}
+        className="m-4 p-6  text-left text-gray-600 no-underline border border-solid border-gray-300 rounded-3xl transition md:w-5/12 hover:text-blue-600 focus:text-blue-600 hover:border-blue-500 focus:border-blue-500 w-full"
       >
-        <h2>Deploy &rarr;</h2>
-        <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+        <h2 className="mb-4 text-2xl">Deploy &rarr;</h2>
+        <p className="m-0 text-xl ">
+          Instantly deploy your Next.js site to a public URL with Vercel.
+        </p>
       </a>
     </div>
   );

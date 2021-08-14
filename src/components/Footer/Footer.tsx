@@ -4,7 +4,7 @@ import Image from "next/image";
 export function Footer() {
   return (
     // <footer className={styles.footer}>
-    <footer className="border-b-4 md:border-t-2 text-center container mx-auto">
+    <footer className="border-b-4 border-t-2 text-center container mx-auto">
       {/* <a
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
