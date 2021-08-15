@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 import { Footer } from "../../components/Footer/Footer";
-import { Main } from "../../components/Main/Main";
+import { Blogs } from "../../components/Blogs/Blogs";
 import { Header } from "../../components/Header/Header";
 
-export default function Home() {
+export default function Blog() {
   return (
     <div className="min-h-screen px-2 flex flex-col justify-center items-center h-screen">
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
-      <Main page="blog" />
+      <Blogs page="blog" />
       <Footer />
     </div>
   );

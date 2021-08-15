@@ -1,9 +1,8 @@
 import Image from "next/image";
-
-import { Layout } from "../components/Layout/Layout";
-import { Links } from "../components//Links/Links";
+import { Layout } from "../../components/Layout/Layout";
+import { Links } from "../../components/Links/Links";
 // pages 配下はexport defaultにしとけ
-export default function Home() {
+export default function Profile() {
   return (
     <Layout>
       {/* <div className="min-h-screen px-2 flex flex-col justify-center items-center h-screen"> */}
@@ -64,7 +63,6 @@ export default function Home() {
         </div>
       </div>
       {/* </div> */}
-      <Links />
     </Layout>
   );
 }
