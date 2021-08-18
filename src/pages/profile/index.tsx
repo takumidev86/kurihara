@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Layout } from "../../components/Layout/Layout";
-import { Links } from "../../components/Links/Links";
+
 // pages 配下はexport defaultにしとけ
 export default function Profile() {
   return (
