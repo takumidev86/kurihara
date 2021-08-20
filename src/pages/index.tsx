@@ -1,13 +1,17 @@
-import Image from "next/image";
+import { Center } from "@chakra-ui/react";
 
 import { Layout } from "../components/Layout/Layout";
 import { Links } from "../components//Links/Links";
+import { UserCard } from "../components/UserCard/UserCard";
 // pages 配下はexport defaultにしとけ
 export default function Home() {
   return (
     <Layout>
+      <Center>
+        <UserCard />
+      </Center>
       {/* <div className="min-h-screen px-2 flex flex-col justify-center items-center h-screen"> */}
-      <div className="bg-gray-100 text-center shadow-xl  p-8 w-80 rounded">
+      {/* <div className="bg-gray-100 text-center shadow-xl  p-8 w-80 rounded">
         <div className="mt-4">
           <p className="font-bold font-serif"> Takumi</p>
         </div>
@@ -63,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      </div> */}
       <Links />
     </Layout>
   );

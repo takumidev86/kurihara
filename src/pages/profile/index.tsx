@@ -1,14 +1,15 @@
 // import Image from "next/image";
-import { Layout } from "../../components/Layout/Layout";
-
 import { Box, Stack, Image, Text, Flex, Center } from "@chakra-ui/react";
+
+import { Layout } from "../../components/Layout/Layout";
+import { UserCard } from "../../components/UserCard/UserCard";
 // pages 配下はexport defaultにしとけ
 export default function Profile() {
   return (
     <Layout>
       {/* <div className="min-h-screen px-2 flex flex-col justify-center items-center h-screen"> */}
       <Center>
-        <Box
+        {/* <Box
           w="360px"
           h="360px"
           bg="white"
@@ -38,7 +39,8 @@ export default function Profile() {
             <Image boxSize="40px" src="/icon.png" alt="Avatar" m="auto"></Image>
             <Image boxSize="40px" src="/icon.png" alt="Avatar" m="auto"></Image>
           </Flex>
-        </Box>
+        </Box> */}
+        <UserCard></UserCard>
       </Center>
     </Layout>
   );
