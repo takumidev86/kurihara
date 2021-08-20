@@ -5,8 +5,6 @@ import { Headline } from "../Headline/Headline";
 export function Blogs(props) {
   return (
     // <main className={styles.main}>
-    <main className="py-2 px-0 flex-1 flex flex-col justify-center items-center">
-      <Links />
-    </main>
+    <Links />
   );
 }
