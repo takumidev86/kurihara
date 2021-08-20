@@ -19,14 +19,32 @@ export const UserCard: VFC = () => {
         <Text fontSize="lg" fontWeight="bold">
           Takumi
         </Text>
-        <Text fontSize="sm" color="gray">
+        <Text fontSize="sm" color="gray" pb="10px">
           takumidevelopment86@gmail.com
         </Text>
       </Stack>
       <Flex>
-        <Image boxSize="40px" src="/icon.png" alt="Avatar" m="auto"></Image>
-        <Image boxSize="40px" src="/icon.png" alt="Avatar" m="auto"></Image>
-        <Image boxSize="40px" src="/icon.png" alt="Avatar" m="auto"></Image>
+        <Image
+          boxSize="35px"
+          src="/linkedin-original.svg"
+          alt="Avatar"
+          m="auto"
+          _hover={{ bg: "blue.500" }}
+        ></Image>
+        <Image
+          boxSize="35px"
+          src="/github-original.svg"
+          alt="Avatar"
+          m="auto"
+          _hover={{ bg: "blue.500" }}
+        ></Image>
+        <Image
+          boxSize="35px"
+          src="/twitter-original.svg"
+          alt="Avatar"
+          m="auto"
+          _hover={{ bg: "blue.500" }}
+        ></Image>
       </Flex>
     </Box>
   );
