@@ -6,7 +6,7 @@ import { Box, Stack, Image, Text, Flex, Center } from "@chakra-ui/react";
 export const UserCard: VFC = () => {
   return (
     <Box
-      w="70%"
+      w="80%"
       h="70%"
       bg="white"
       borderRadius="10px"

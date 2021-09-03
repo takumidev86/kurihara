@@ -24,7 +24,8 @@ export const Header: VFC = () => {
         // bg="gray.200"
         align="center"
         justify="space-between"
-        padding={{ base: 3, md: 5 }}
+        py={{ base: 3, md: 5 }}
+        px={{ base: "15%", md: "15%" }}
       >
         <Flex align="center" as="a" mr={10} _hover={{ cursor: "pointer" }}>
           <Text fontSize={{ base: "md", md: "xl" }} fontFamily="mono">
