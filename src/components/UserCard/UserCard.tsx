@@ -34,12 +34,12 @@ export const UserCard: VFC = () => {
           <Flex>
             <Link href="https://www.linkedin.com/in/takumi-kurihara-913514205/">
               <Box m="auto">
-                <GithubIcon />
+                <LinkdinIcon />
               </Box>
             </Link>
             <Link href="https://github.com/takumidev86">
               <Box m="auto">
-                <LinkdinIcon />
+                <GithubIcon />
               </Box>
             </Link>
             <Link href="https://twitter.com/takumi_______86">
