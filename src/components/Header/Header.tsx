@@ -28,7 +28,7 @@ export const Header: VFC = () => {
         px={{ base: "15%", md: "15%" }}
       >
         <Flex align="center" as="a" mr={10} _hover={{ cursor: "pointer" }}>
-          <Text fontSize={{ base: "md", md: "xl" }} fontFamily="mono">
+          <Text fontSize="xl" fontFamily="mono">
             <Link href="/">
               <Text color="blue.600"> kurihara.dev</Text>
             </Link>

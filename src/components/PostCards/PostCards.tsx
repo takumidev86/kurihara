@@ -2,7 +2,7 @@ import { Box, Center, Flex, Wrap, WrapItem } from "@chakra-ui/layout";
 
 export function PostCards() {
   return (
-    <Wrap px={{ base: "10%", md: "10%" }} justify="center">
+    <Wrap px={{ base: "15%", md: "15%" }} py="3" justify="center">
       <WrapItem
         w={{ base: "100%", md: "48%" }}
         h="130px"

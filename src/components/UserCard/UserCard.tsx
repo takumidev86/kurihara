@@ -1,12 +1,17 @@
 import Link from "next/link";
 
-import { VFC } from "react";
+import React, { VFC } from "react";
 import { Box, Stack, Image, Text, Flex, Center } from "@chakra-ui/react";
+import { GithubIcon } from "../Icons/GithubIcon";
+import { LinkdinIcon } from "../Icons/LinkedinIcon";
+
+import { TwitterIcon } from "../Icons/TwitterIcon";
+import { FacebookIcon } from "../Icons/FacebookIcon";
 
 export const UserCard: VFC = () => {
   return (
     <Box
-      w="80%"
+      w="70%"
       h="70%"
       bg="white"
       borderRadius="10px"
@@ -25,52 +30,27 @@ export const UserCard: VFC = () => {
         </Text>
       </Stack>
       <Center>
-        <Box w="40%">
+        <Box w="50%">
           <Flex>
             <Link href="https://www.linkedin.com/in/takumi-kurihara-913514205/">
-              <Image
-                boxSize={{ base: "25px", md: "30px" }}
-                src="/linkedin-original.svg"
-                alt="Avatar"
-                m="auto"
-                _hover={{
-                  cursor: "pointer",
-                }}
-              />
+              <Box m="auto">
+                <GithubIcon />
+              </Box>
             </Link>
             <Link href="https://github.com/takumidev86">
-              <Image
-                boxSize={{ base: "25px", md: "30px" }}
-                src="/github-original.svg"
-                alt="Avatar"
-                m="auto"
-                _hover={{
-                  cursor: "pointer",
-                }}
-              />
+              <Box m="auto">
+                <LinkdinIcon />
+              </Box>
             </Link>
             <Link href="https://twitter.com/takumi_______86">
-              <Image
-                boxSize={{ base: "25px", md: "30px" }}
-                href=""
-                src="/twitter-original.svg"
-                alt="Avatar"
-                m="auto"
-                _hover={{
-                  cursor: "pointer",
-                }}
-              />
+              <Box m="auto">
+                <TwitterIcon />
+              </Box>
             </Link>
             <Link href="https://www.facebook.com/profile.php?id=100005429313609">
-              <Image
-                boxSize={{ base: "25px", md: "30px" }}
-                src="/facebook-original.svg"
-                alt="Avatar"
-                m="auto"
-                _hover={{
-                  cursor: "pointer",
-                }}
-              />
+              <Box m="auto">
+                <FacebookIcon />
+              </Box>
             </Link>
           </Flex>
         </Box>
